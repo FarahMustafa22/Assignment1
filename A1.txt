@@ -35,7 +35,7 @@ Section tag containing article       Div tag contains all the elements where
 
 ////////////////////////////////////////////////////////////////////////////////////////
 
-Difference between article & p
+Difference between article & p:
 
 - The <article> tag is a semantic tag that describes its meaning to both developer
  and browser. It specifies independencies, self-container content.
