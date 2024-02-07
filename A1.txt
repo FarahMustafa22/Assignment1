@@ -1,0 +1,54 @@
+
+Difference between div & section :
+
+The <div> tag and <section> tag are used in the webpage, the <section> tag means that 
+the content inside relates to a single theme, and the <div> tag is used as a block part
+of the web page.
+The <div> and <section> tags are both used to group content in HTML, but they have 
+different meanings. The <div> tag is a generic container that does not carry any
+ semantic meaning. It is mostly used for grouping related elements together and applying
+ styling to them via CSS. On the other hand, the <section> tag is a semantic element
+ that represents a specific section of a web page with a distinct topic or purpose. 
+The content inside a <section> tag will be grouped, i.e., it will connect 
+to a single subject and appear as an entry in an outline of the page.
+ A common rule is that the <section> element is valid only if that element’s contents 
+would be listed explicitly in the document’s outline.
+
+ <div>                            | <section> 
+ It is called as division tag.      It is called as section tag.
+ ---------------------------------|-------------------------------------------  
+ It represents its child elements   It represents its child elements and has a
+ and doesn’t have a                 special meaning.
+ special meaning.
+----------------------------------|-------------------------------------------                               
+ It doesn’t have any specific       It describes its meaning in the web page
+ meaning.                                           
+----------------------------------|-------------------------------------------
+Use <div> element for style         use <section> during requirements of
+ purposes in webpage.               headers or footers.
+----------------------------------|-------------------------------------------
+It is not a generic container        It is a generic container
+ and global attributes
+----------------------------------|-------------------------------------------
+Section tag containing article       Div tag contains all the elements where 
+ elements in html                    the <p> tag should not force to do it
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+Difference between article & p
+
+- The <article> tag is a semantic tag that describes its meaning to both developer
+ and browser. It specifies independencies, self-container content.
+ It doesn’t require any other context. An article makes meaning of its own and it must
+ distribute independently from the rest of the website(even though it can be related). 
+ These tags are perfect for presenting Microdata information.
+ The article element does not render anything special in a browser. By default,
+ the article element is of block-level.
+
+- The <p> tag is both presentational and semantic. It defines paragraphs in HTML.
+ Anything written within <p> and </p> is treated as paragraph. The browser automatically
+ adds space (a single blank line) before and after each <p> element, 
+which is simply margins added by the browser. Multiple lines and spaces added by the users
+are reduced to single by the browser.
+By default, <p> element is of block-level. <p> tag is most useful in times when there are
+multiple paragraphs to be added in articles, stories, etc.
